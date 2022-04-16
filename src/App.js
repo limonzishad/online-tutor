@@ -8,6 +8,8 @@ import NavBar from './components/NavBar/NavBar';
 import NotFound from './components/NotFound/NotFound';
 import Footer from './components/Footer/Footer';
 import { Routes, Route } from 'react-router-dom';
+import Login from './components/Logins/Login/Login';
+import Signup from './components/Logins/Signup/Signup';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
         <Route path="/reviews" element={<Reviews />} />
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/about" element={<About />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer></Footer>

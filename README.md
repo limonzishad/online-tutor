@@ -5,6 +5,7 @@
 ## Things used to create this project
 #
 * React Bootstrap
-* React Route
+* React Router
+* React Firebase Hooks
 * Firebase Authentication
 * Firebase Hosting
