@@ -1,10 +1,10 @@
 import React from "react";
 import './Reviews.css';
-import useReviews from "../../hooks/useReviews";
+import useReview from "../../hooks/useReview";
 import Review from "../Review/Review";
 
 const Reviews = () => {
-    const [reviews, setReviews] = useReviews();
+    const [reviews] = useReview();
     return (
         <div className="reviews-container">
             {

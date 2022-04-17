@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Aaron C.",
+        "review": "It is undoubtedly great laptop.",
+        "rating": "4.5/5",
+        "img": "https://www.vhv.rs/dpng/d/473-4739617_transparent-face-profile-png-round-profile-picture-png.png"
+    },
+    {
+        "id": 2,
+        "name": "Coney D.",
+        "review": "Best for day to day users.",
+        "rating": "4/5",
+        "img": "https://www.vhv.rs/dpng/d/551-5511364_circle-profile-man-hd-png-download.png"
+    },
+    {
+        "id": 3,
+        "name": "Auther S.",
+        "review": "Editing videos and animation without any problem.",
+        "rating": "4.5/5",
+        "img": "https://www.vhv.rs/dpng/d/420-4205588_walker-circle-person-circle-png-transparent-png.png"
+    },
+    {
+        "id": 4,
+        "name": "Jimmy J.",
+        "review": "This a best thing you can have.",
+        "rating": "5/5",
+        "img": "https://www.pikpng.com/pngl/m/541-5413318_matt-round-png-round-portrait-pic-png-clipart.png"
+    },
+    {
+        "id": 5,
+        "name": "Nithen M.",
+        "review": "The price is a bit high but worth it.",
+        "rating": "4/5",
+        "img": "https://www.pngfind.com/pngs/m/57-570344_malcolm-thomas-circular-vignette-portrait-photography-hd-png.png"
+    },
+    {
+        "id": 6,
+        "name": "Helour E.",
+        "review": "Great display, great speed.",
+        "rating": "4.5/5",
+        "img": "https://www.seekpng.com/png/detail/219-2190977_circle-profile-no-background-png-120dpi-page001-gentleman.png"
+    }
+]

@@ -1,4 +1,5 @@
-import { Button, Col, Form, Row } from 'react-bootstrap';
+import React from 'react';
+import { Button, Form } from 'react-bootstrap';
 import { Link, useNavigate } from 'react-router-dom';
 import './Signup.css';
 
