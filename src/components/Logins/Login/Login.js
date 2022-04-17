@@ -1,28 +1,38 @@
 import React, { useRef } from 'react';
-import { Button, Form } from 'react-bootstrap';
-import { Link, useNavigate } from 'react-router-dom';
 import './Login.css';
+import { Button, Form } from 'react-bootstrap';
+import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
+import auth from '../../../firebase.init';
 
 const Login = () => {
     const emailRef = useRef("");
     const passwordRef = useRef("");
     const navigate = useNavigate();
+    const location = useLocation();
 
-    const handelSubmit = (event) => {
+    let from = location.state?.from?.pathname || "/";
+
+    const [signInWithEmailAndPassword, user, loading, error] = useSignInWithEmailAndPassword(auth);
+
+    const handleSubmit = (event) => {
         event.preventDefault();
         const email = emailRef.current.value;
         const password = passwordRef.current.value;
-        console.log(email, password);
+        signInWithEmailAndPassword(email, password);
     };
 
     const navigateToSignup = () => {
-        navigate('/signup');
+        navigate("/signup");
     };
 
+    if (user) {
+        navigate(from, { replace: true });
+    }
     return (
         <div>
             <h1 className="text-center mt-5">Please Login</h1>
-            <Form className="w-25 m-auto" onSubmit={handelSubmit}>
+            <Form className="w-25 m-auto" onSubmit={handleSubmit}>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Email address</Form.Label>
                     <Form.Control required ref={emailRef} type="email" placeholder="enter your email" />

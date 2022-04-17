@@ -1,6 +1,7 @@
 import React from "react";
 import './About.css';
-import { Card } from "react-bootstrap";
+import { Button, Card } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const About = () => {
     return (
@@ -8,6 +9,7 @@ const About = () => {
             <h1>TUTOR'S INFORMATION</h1>
             <hr></hr>
             <p>This assignment is assigned by programing hero.</p>
+            <Button><Link as={Link} to="/login">LOGIN</Link></Button>
         </Card>
     );
 }

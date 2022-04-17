@@ -10,6 +10,8 @@ import Footer from './components/Footer/Footer';
 import { Routes, Route } from 'react-router-dom';
 import Login from './components/Logins/Login/Login';
 import Signup from './components/Logins/Signup/Signup';
+import RequireAuth from './components/Logins/RequireAuth/RequireAuth';
+import Enroll from './components/Enroll/Enroll';
 
 function App() {
   return (
@@ -23,6 +25,11 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/enroll" element={
+          <RequireAuth>
+            <Enroll />
+          </RequireAuth>
+        }></Route>
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer></Footer>

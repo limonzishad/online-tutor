@@ -16,6 +16,10 @@ const Home = () => {
         navigate('/reviews');
     }
 
+    const changeRouteToServices = () => {
+        navigate('/services');
+    }
+
     const [reviews] = useReview();
     const [services] = useService();
 
@@ -48,18 +52,28 @@ const Home = () => {
                 </Carousel.Item>
             </Carousel>
             <div>
-                <h2 className="text-center">STUDENTS REVIEWS</h2>
-                <div className="reviews-container">
-                    {
-                        services.slice(0, 3).map(service => <Service key={service.id} service={service}></Service>)
-                    }
+                <div>
+                    <h2 className="text-center">COURSERS</h2>
+                    <div className="reviews-container">
+                        {
+                            services.slice(0, 3).map(service => <Service key={service.id} service={service}></Service>)
+                        }
+                    </div>
+                    <div className=" text-center">
+                        <button onClick={changeRouteToServices} className="home-btn text-center">SEE ALL COURSES</button>
+                    </div>
                 </div>
-                <div className="reviews-container">
-                    {
-                        reviews.slice(0, 3).map(review => <Review key={review.id} review={review}></Review>)
-                    }
+                <div>
+                    <h2 className="text-center">STUDENTS REVIEWS</h2>
+                    <div className="reviews-container">
+                        {
+                            reviews.slice(0, 3).map(review => <Review key={review.id} review={review}></Review>)
+                        }
+                    </div>
+                    <div className=" text-center">
+                        <button onClick={changeRouteToReviews} className="home-btn">SEE ALL REVIEWS</button>
+                    </div>
                 </div>
-                <button onClick={changeRouteToReviews} className="home-btn">SEE ALL REVIEWS</button>
             </div>
         </div>
     );
