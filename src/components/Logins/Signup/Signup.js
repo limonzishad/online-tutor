@@ -1,16 +1,19 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Signup.css';
 import { Button, Form } from 'react-bootstrap';
 import { Link, useNavigate } from 'react-router-dom';
-import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import { useCreateUserWithEmailAndPassword, sendEmailVerification, useSendEmailVerification } from 'react-firebase-hooks/auth';
 import auth from '../../../firebase.init';
 import SocialLogin from '../SocialLogin/SocialLogin';
+import { toast, ToastContainer } from 'react-toastify';
 
 const Signup = () => {
     let errorMessage;
     let loadingMessage;
 
     const [createUserWithEmailAndPassword, user, loading, error] = useCreateUserWithEmailAndPassword(auth, { emailVerificationOptions: true });
+
+    const [sendEmailVerification] = useSendEmailVerification(auth);
 
     const navigate = useNavigate();
 
@@ -20,6 +23,7 @@ const Signup = () => {
         const email = event.target.email.value;
         const password = event.target.password.value;
         createUserWithEmailAndPassword(email, password);
+        sendEmailVerification();
     };
 
     const navigateToLogin = () => {
@@ -68,6 +72,7 @@ const Signup = () => {
                 <p className="mt-3">Already have an account? <Link to="/login" className="text-primary text-decoration-none" onClick={navigateToLogin}>Login</Link></p>
             </Form>
             <div className="w-25 mx-auto"><SocialLogin></SocialLogin></div>
+            <ToastContainer />
         </div>
     );
 };

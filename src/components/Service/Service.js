@@ -4,7 +4,7 @@ import { Button, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 const Service = (props) => {
-    const { name, details, img, price } = props.service;
+    const { id, name, details, img, price } = props.service;
     return (
         <div>
             <Card className="component-shadow">
@@ -15,8 +15,8 @@ const Service = (props) => {
                 <p className="service-text">{details}</p>
                 <p className="service-text">Price: {price}</p>
                 <div><Link to="/enroll"><Button variant="primary" className="w-100 mx-auto">ENROLL</Button></Link></div>
-            </Card>
-        </div>
+            </Card >
+        </div >
     );
 }
 
