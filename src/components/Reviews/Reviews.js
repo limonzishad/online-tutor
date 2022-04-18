@@ -6,7 +6,7 @@ import Review from "../Review/Review";
 const Reviews = () => {
     const [reviews] = useReview();
     return (
-        <div className="reviews-container">
+        <div className="reviews-container mt-5 pb-5">
             {
                 reviews.map(review => <Review key={review.id} review={review}></Review>)
             }

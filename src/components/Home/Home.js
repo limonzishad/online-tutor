@@ -53,24 +53,26 @@ const Home = () => {
             </Carousel>
             <div>
                 <div>
-                    <h2 className="text-center">COURSERS</h2>
+                    <h2 className="text-center mt-5">COURSES</h2>
+                    <hr className="w-50 mx-auto mb-4"></hr>
                     <div className="reviews-container">
                         {
                             services.slice(0, 3).map(service => <Service key={service.id} service={service}></Service>)
                         }
                     </div>
-                    <div className=" text-center">
+                    <div className="text-center mt-4">
                         <button onClick={changeRouteToServices} className="home-btn text-center">SEE ALL COURSES</button>
                     </div>
                 </div>
                 <div>
                     <h2 className="text-center">STUDENTS REVIEWS</h2>
+                    <hr className="w-50 mx-auto mb-4"></hr>
                     <div className="reviews-container">
                         {
                             reviews.slice(0, 3).map(review => <Review key={review.id} review={review}></Review>)
                         }
                     </div>
-                    <div className=" text-center">
+                    <div className="text-center mt-4">
                         <button onClick={changeRouteToReviews} className="home-btn">SEE ALL REVIEWS</button>
                     </div>
                 </div>
