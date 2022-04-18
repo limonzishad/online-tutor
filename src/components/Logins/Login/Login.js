@@ -69,7 +69,7 @@ const Login = () => {
         <div>
             <h1 className="text-center mt-5">Please Login</h1>
             <hr className="w-25 mx-auto mb-4 text-info"></hr>
-            <Form className="w-25 m-auto" onSubmit={handleSubmit}>
+            <Form className="w-25 mx-auto" onSubmit={handleSubmit}>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Email address</Form.Label>
                     <Form.Control required ref={emailRef} type="email" placeholder="enter your email" />
