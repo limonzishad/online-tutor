@@ -2,43 +2,43 @@
     {
         "id": 1,
         "name": "DATA STRUCTURE & ALGORITHMS",
-        "details": "It is undoubtedly great laptop.",
-        "rating": "4.5/5",
-        "img": "https://www.vhv.rs/dpng/d/473-4739617_transparent-face-profile-png-round-profile-picture-png.png"
+        "details": "This tutorial is designed for Computer Science graduates as well as Software Professionals who are willing to learn data structures and algorithm programming in simple and easy steps. After completing this tutorial you will be at intermediate level of expertise.",
+        "price": "$15.5",
+        "img": "https://w7.pngwing.com/pngs/580/809/png-transparent-data-structure-logo-brand-data-structure-blue-text-logo.png"
     },
     {
         "id": 2,
         "name": "PROGRAMMING LANGUAGE (C++)",
-        "details": "Best for day to day users.",
-        "rating": "4/5",
-        "img": "https://www.vhv.rs/dpng/d/551-5511364_circle-profile-man-hd-png-download.png"
+        "details": "C++ is a powerful general-purpose programming language. It can be used to develop operating systems, browsers, games, and so on. C++ supports different ways of programming like procedural, object-oriented, functional, and so on. This makes C++ powerful as well as flexible.",
+        "price": "$12.50",
+        "img": "https://e7.pngegg.com/pngimages/46/626/png-clipart-c-logo-the-c-programming-language-computer-icons-computer-programming-source-code-programming-miscellaneous-template.png"
     },
     {
         "id": 3,
         "name": "DATABASE MANAGEMENT SYSTEM",
-        "details": "Editing videos and animation without any problem.",
-        "rating": "4.5/5",
-        "img": "https://www.vhv.rs/dpng/d/420-4205588_walker-circle-person-circle-png-transparent-png.png"
+        "details": "DBMS Tutorial provides basic and advanced concepts of Database. Using the database, you can easily retrieve, insert, and delete the information. Our DBMS Tutorial is designed for beginners and professionals both. Database management system is software that is used to manage the database.",
+        "price": "$14.50",
+        "img": "https://w7.pngwing.com/pngs/840/791/png-transparent-database-management-system-computer-icons-unlimited-miscellaneous-data-brand.png"
     },
     {
         "id": 4,
         "name": "OBJECT ORIENTED PROGRAMMING (JAVA)",
-        "details": "OBJECT ORIENTED PROGRAMMING (JAVA)",
-        "rating": "5/5",
-        "img": "https://www.pikpng.com/pngl/m/541-5413318_matt-round-png-round-portrait-pic-png-clipart.png"
+        "details": " Java runs on a variety of platforms, such as Windows, Mac OS, and the various versions of UNIX. This tutorial gives a complete understanding of Java. This reference will take you through simple and practical approaches while learning Java Programming language.",
+        "price": "$17.50",
+        "img": "https://banner2.cleanpng.com/20180504/obw/kisspng-java-programming-language-computer-programming-obj-java-5aecd0e57187f9.7147867015254694134651.jpg"
     },
     {
         "id": 5,
         "name": "OBJECT ORIENTED PROGRAMMING (C#)",
-        "details": "The price is a bit high but worth it.",
-        "rating": "4/5",
-        "img": "https://www.pngfind.com/pngs/m/57-570344_malcolm-thomas-circular-vignette-portrait-photography-hd-png.png"
+        "details": "C# is a simple, modern, general-purpose, object-oriented programming language developed by Microsoft within its .NET initiative. This tutorial will teach you basic C# programming and will also take you through various advanced concepts.",
+        "price": "$17.50",
+        "img": "https://e7.pngegg.com/pngimages/328/221/png-clipart-c-programming-language-logo-microsoft-visual-studio-net-framework-javascript-icon-purple-logo.png"
     },
     {
         "id": 6,
         "name": "WEB TECHNOLOGY",
-        "details": "Great display, great speed.",
-        "rating": "4.5/5",
-        "img": "https://www.seekpng.com/png/detail/219-2190977_circle-profile-no-background-png-120dpi-page001-gentleman.png"
+        "details": "Web Technology refers to the various tools and techniques that are utilized in the process of communication between different types of devices over the internet. A web browser is used to access web pages. Web programs shows all kinds of data on the internet.",
+        "price": "$18.50",
+        "img": "https://w7.pngwing.com/pngs/359/353/png-transparent-computer-icons-computer-program-world-wide-web.png"
     }
 ]

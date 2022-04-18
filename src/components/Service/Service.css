@@ -13,6 +13,7 @@
 .service-text {
     margin: 0;
     padding: 15px;
+    text-align: justify;
 }
 
 .cards-container img {

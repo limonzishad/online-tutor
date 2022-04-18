@@ -2,42 +2,42 @@
     {
         "id": 1,
         "name": "Aaron C.",
-        "review": "It is undoubtedly great laptop.",
+        "review": "The instructor is great. Nice and friendly. I learnt a a lot and stuff.",
         "rating": "4.5/5",
         "img": "https://www.vhv.rs/dpng/d/473-4739617_transparent-face-profile-png-round-profile-picture-png.png"
     },
     {
         "id": 2,
         "name": "Coney D.",
-        "review": "Best for day to day users.",
+        "review": "I enrolled c# programming language and I am satisfied with the service.",
         "rating": "4/5",
         "img": "https://www.vhv.rs/dpng/d/551-5511364_circle-profile-man-hd-png-download.png"
     },
     {
         "id": 3,
         "name": "Auther S.",
-        "review": "Editing videos and animation without any problem.",
+        "review": "Excellent course outline for all academic and professional learners.",
         "rating": "4.5/5",
         "img": "https://www.vhv.rs/dpng/d/420-4205588_walker-circle-person-circle-png-transparent-png.png"
     },
     {
         "id": 4,
         "name": "Jimmy J.",
-        "review": "This a best thing you can have.",
+        "review": "Object oriented programming concept were explained very easily.",
         "rating": "5/5",
         "img": "https://www.pikpng.com/pngl/m/541-5413318_matt-round-png-round-portrait-pic-png-clipart.png"
     },
     {
         "id": 5,
         "name": "Nithen M.",
-        "review": "The price is a bit high but worth it.",
+        "review": "Overall everything is good. I wish good luck to all future students.",
         "rating": "4/5",
         "img": "https://www.pngfind.com/pngs/m/57-570344_malcolm-thomas-circular-vignette-portrait-photography-hd-png.png"
     },
     {
         "id": 6,
         "name": "Helour E.",
-        "review": "Great display, great speed.",
+        "review": "Great job done by the instructor. All topics are explained in detail.",
         "rating": "4.5/5",
         "img": "https://www.seekpng.com/png/detail/219-2190977_circle-profile-no-background-png-120dpi-page001-gentleman.png"
     }
